@@ -1,0 +1,40 @@
+.hero , .header {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.title {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.su1 , .call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.information {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.img1 {
+    width: 450px;
+    height: 200px;
+    background-color: grey;
+}
