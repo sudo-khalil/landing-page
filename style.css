@@ -27,7 +27,7 @@ body {
 div.hero {
     display: flex;
     width: 72%;
-    margin: auto;
+    margin: 8% auto;
     margin-top: 8%;
     justify-content: space-around;
     gap: 18px;
@@ -62,6 +62,7 @@ h1 {
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
+    margin: 8% auto;
 }
 
 .quote {
@@ -104,4 +105,10 @@ ul {
 
 .item {
     width: 200px;
+}
+
+.img2 {
+    width: 200px;
+    height: 134px;
+    border-radius: 15px;
 }
