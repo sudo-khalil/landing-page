@@ -69,9 +69,15 @@ h1 {
 .quote {
     background-color: #e5e7eb;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 290;
     font-style: italic;
     color: #1f2937;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    
 }
 .img1 {
     max-width: 480px;
@@ -108,10 +114,33 @@ ul {
 
 .item {
     width: 200px;
+    color: #1f2937;
+    font-weight: 380;
+}
+
+div.items {
+    margin-bottom: 10%;
 }
 
 .img2 {
     width: 200px;
     height: 134px;
     border-radius: 15px;
+}
+
+.t1 ,.t2 {
+    width: 60%;
+}
+
+.t1 {
+    margin-top: 10%;
+}
+
+.t2 {
+    font-style: normal;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 12%;
+    margin-left: 80%;
 }
