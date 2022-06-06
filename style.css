@@ -62,8 +62,8 @@ h1 {
 .information {
     font-size: 36px;
     color: #1f2937;
-    font-weight: 900;
-    margin: 8% auto;
+    font-weight: 750;
+    margin: 10% auto;
 }
 
 .quote {
@@ -188,5 +188,12 @@ div.items {
 
 div.call-to-action {
     margin-top: 7%;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
+}
+
+.footer {
+    text-align: center;
+    color: #f9faf8;
+    font-size: 18px;
+    margin: 3%;
 }
