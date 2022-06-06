@@ -62,7 +62,7 @@ h1 {
 .information {
     font-size: 36px;
     color: #1f2937;
-    font-weight: bolder;
+    font-weight: 900;
     margin: 8% auto;
 }
 
@@ -77,7 +77,6 @@ h1 {
     align-items: center;
     align-content: center;
     overflow: hidden;
-    
 }
 .img1 {
     max-width: 480px;
@@ -141,6 +140,53 @@ div.items {
     align-self: flex-end;
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: 12%;
+    margin-bottom: 7%;
     margin-left: 80%;
+}
+
+.cta {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 18%;
+    width: 60%;
+    padding: 2% 6%;
+    margin: 0;
+}
+
+.hs {
+    font-size: 24px;
+}
+
+.t3 {
+    font-weight: 370;
+    color: #e5e7eb;
+}
+
+.su2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    width: 15%;
+    height: fit-content;
+    font-size: large;
+    font-weight: bold;
+    padding: 1% 2%;
+    margin-top: 3%;
+}
+
+div.call-to-action {
+    margin-top: 7%;
+    margin-bottom: 10%;
 }
